@@ -1,8 +1,6 @@
 <div class="YouTube">
      
-    <object  type="application/x-shockwave-flash" data="//www.youtube-nocookie.com/v/$YouTubeID<% if autoplay %>&autoplay=1<% end_if %>" width="$width" height="$height">
-        <embed  name="movie" value="//www.youtube-nocookie.com/v/$YouTubeID<% if autoplay %>&autoplay=1<% end_if %>" />
-    </object>
+    <iframe width="{$width}" height="{$height}" src="https://www.youtube.com/embed/{$YouTubeID}<% if autoplay %>&autoplay=1<% end_if %>" frameborder="0" allowfullscreen></iframe>
      
     <p>$VideoCaption</p>
 </div> 
