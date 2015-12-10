@@ -18,8 +18,8 @@ class YouTubeShortCodeHandler {
 		//set the caption
 		$customise['caption'] = $caption ? Convert::raw2xml( $caption ) : false;
 		//set dimensions
-		$customise['width'] = 640;
-		$customise['height'] = 385;
+		$customise['width'] = 560;
+		$customise['height'] = 315;
 
 		//overide the defaults with the arguments supplied
 		$customise = array_merge( $customise, $arguments );
