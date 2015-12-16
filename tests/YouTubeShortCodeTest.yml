@@ -1,0 +1,22 @@
+Page:
+  VideoIdOnly:
+    Title: Basic Video
+    Content: There should be a video here [YouTube id='5XQwWATPReA']
+  VideoWithCaption:
+    Title: Video with Caption
+    Content: There should be a video here [YouTube id='5XQwWATPReA']This is a caption[/YouTube]
+ VideoWithWidth:
+    Title: Video with Width Set
+    Content: There should be a video here [YouTube id='5XQwWATPReA' width='314']
+ VideoWithHeight:
+    Title: Video with Height Set
+    Content: There should be a video here [YouTube id='5XQwWATPReA' height='314']
+ VideoWithAll:
+    Title: Typical Video with Many Settings
+    Content: There should be a video here [YouTube id='5XQwWATPReA' width='314' height='418']This is a caption[/YouTube]
+ VideoWithNoID:
+    Title: Invalid Video wtih no ID
+    Content: There should not be a video here [YouTube]
+ VideoWithNoAutoPlay:
+    Title: Video with AutoPlay
+    Content: There should be a video here [YouTube id='5XQwWATPReA'autoplay=true]
