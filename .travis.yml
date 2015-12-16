@@ -21,4 +21,4 @@ before_script:
  - cd ~/builds/ss
 
 script:
- - vendor bin/phpunit silverstripe-shortcode-youtube/tests/
+ - phpunit silverstripe-shortcode-youtube/tests/
