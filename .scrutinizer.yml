@@ -1,7 +1,7 @@
 inherit: true
 
 tools:
-    external_code_coverage: false
+    external_code_coverage: true
 
 checks:
     php:
@@ -9,6 +9,4 @@ checks:
         duplication: true
 
 filter:
-    paths: [src/*, tests/*,code/*,searchpage/*,javascript/*,css/*]
-    excluded_paths:
-      - "tests/mock/"
+    paths: [templates/*, tests/*,code/*]
