@@ -5,7 +5,6 @@
 */
 class YouTubeShortCodeHandlerTest extends SapphireTest
 {
-
 	protected static $fixture_file = 'YouTubeShortCodeTest.yml';
 
 	public function testVideoIdOnly() {
