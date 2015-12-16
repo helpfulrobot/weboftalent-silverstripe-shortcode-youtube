@@ -3,6 +3,16 @@ This module allows YouTube videos to be entered as short codes.  It is based on 
 
 ##Functionality
 Videos can be entered into a page using the YouTube code (the v parameter in a YouTube URL).
+```
+[YouTube id='_yY3Gu8HbzE']
+```
+The following parameters are also permitted:
+* _autoplay_ - set this value to anything, e.g. 1 or true, to enable autoplay on the embedded video
+- _caption_ - Text to display after an embedded video.  This can either be passed as an attribute or as follows ```[YouTube id='_yY3Gu8HbzE']This is the caption[/YouTube]```
+- _height_ - set the height of the video
+- _width_ - set the width of the video
 
-    [YouTube id='_yY3Gu8HbzE']
 
+## Build Info
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/badges/quality-score.png?b=AUTOMATED_TESTING)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/?branch=AUTOMATED_TESTING)
+[![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/badges/build.png?b=AUTOMATED_TESTING)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/build-status/AUTOMATED_TESTING)
