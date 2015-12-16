@@ -36,7 +36,4 @@ before_script:
   - cd ~/builds/ss
 
 script:
-  - cd mysite/code
-  - wget https://raw.githubusercontent.com/silverstripe/silverstripe-installer/3.1/mysite/code/Page.php
-  - cd ../..
   - vendor/bin/phpunit silverstripe-shortcode-youtube/tests/
