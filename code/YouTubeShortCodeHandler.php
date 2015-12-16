@@ -28,8 +28,6 @@ class YouTubeShortCodeHandler {
 		$customise['Width'] = $widthSet ? $arguments['width'] : 560;
 		$customise['Height'] = $heightSet ? $arguments['height'] : 315;
 
-		error_log(print_r($customise,1));
-
 		//overide the defaults with the arguments supplied
 		$customise = array_merge($customise, $arguments);
 
