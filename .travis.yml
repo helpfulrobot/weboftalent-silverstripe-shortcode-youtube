@@ -2,20 +2,30 @@ language: php
 
 sudo: false
 
-php:
-  - 5.3
+addons:
+  apt:
+    packages:
+      - tidy
 
 env:
-  - DB=MYSQL CORE_RELEASE=3.1
+  global:
+    - DB=MYSQL CORE_RELEASE=3.1
 
 matrix:
+  allow_failures:
+    - php: hhvm-nightly
   include:
-    - php: 5.4
-      env: DB=MYSQL CORE_RELEASE=3.1
-    - php: 5.5
-      env: DB=MYSQL CORE_RELEASE=3
     - php: 5.6
-      env: DB=MYSQL CORE_RELEASE=3.2
+      env: DB=MYSQL
+    - php: 5.5
+      env: DB=MYSQL
+    - php: 5.4
+      env: DB=MYSQL
+    - php: 5.3
+      env: DB=MYSQL
+    - php: hhvm
+      env: DB=MYSQL
+      before_install:
 
 
 before_script:
@@ -26,6 +36,4 @@ before_script:
   - cd ~/builds/ss
 
 script:
-  - echo 'This is a test'
-  - ls -al
   - vendor/bin/phpunit silverstripe-shortcode-youtube/tests/
