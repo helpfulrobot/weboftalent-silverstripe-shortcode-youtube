@@ -28,9 +28,6 @@ class YouTubeShortCodeHandler {
 		$customise['Width'] = $widthSet ? $arguments['width'] : 560;
 		$customise['Height'] = $heightSet ? $arguments['height'] : 315;
 
-		//overide the defaults with the arguments supplied
-		$customise = array_merge($customise, $arguments);
-
 		//get our YouTube template
 		$template = new SSViewer('YouTube');
 
