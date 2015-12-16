@@ -14,5 +14,5 @@ The following parameters are also permitted:
 
 
 ## Build Info
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/badges/quality-score.png?b=AUTOMATED_TESTING)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/?branch=AUTOMATED_TESTING)
-[![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/badges/build.png?b=AUTOMATED_TESTING)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/build-status/AUTOMATED_TESTING)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/badges/build.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/build-status/master)
