@@ -27,6 +27,8 @@ matrix:
       env: DB=MYSQL
       before_install:
 
+before_install:
+  - pip install --user codecov
 
 before_script:
   - phpenv rehash
@@ -38,6 +40,7 @@ before_script:
 script:
   - vendor/bin/phpunit --coverage-clover=coverage.clover silverstripe-shortcode-youtube/tests/
 
-after_script:
+after_success:
     - wget https://scrutinizer-ci.com/ocular.phar
     - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
+    - codecov
