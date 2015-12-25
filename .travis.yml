@@ -36,7 +36,7 @@ before_script:
   - cd ~/builds/ss
 
 script:
-  - vendor/bin/phpunit --coverage-clover=coverage.clover silverstripe-shortcode-youtube/tests/
+  - vendor/bin/phpunit --coverage-clover=coverage.clover -c -c silverstripe-shortcode-youtube/phpunit.xml silverstripe-shortcode-youtube/tests/
 
 after_script:
     - wget https://scrutinizer-ci.com/ocular.phar
