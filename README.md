@@ -2,6 +2,7 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/badges/quality-score.png?b=3.1)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/?branch=3.1)
 [![Code Coverage](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/badges/coverage.png?b=3.1)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/?branch=3.1)
 [![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/badges/build.png?b=3.1)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/build-status/3.1)
+[![Build Status](https://travis-ci.org/gordonbanderson/weboftalent-youtube.svg?branch=3.1)](https://travis-ci.org/gordonbanderson/weboftalent-youtube)
 
 This module allows YouTube videos to be entered as short codes.  It is based on
 the SSBits tutorial
