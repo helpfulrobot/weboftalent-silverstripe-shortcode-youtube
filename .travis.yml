@@ -39,5 +39,6 @@ script:
   - vendor/bin/phpunit --coverage-clover=coverage.clover -c silverstripe-shortcode-youtube/phpunit.xml silverstripe-shortcode-youtube/tests/
 
 after_script:
+    - ls -al /home/travis/build/gordonbanderson/weboftalent-youtube
     - wget https://scrutinizer-ci.com/ocular.phar
     - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
