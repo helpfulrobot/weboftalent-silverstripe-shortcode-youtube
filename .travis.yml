@@ -41,5 +41,7 @@ script:
 
 after_script:
     - cd ~/build/$TRAVIS_REPO_SLUG
+    - mv ~/coverage.clover .
+    - ls -al
     - wget https://scrutinizer-ci.com/ocular.phar
-    - php ocular.phar code-coverage:upload --format=php-clover ~/coverage.clover
+    - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
