@@ -42,7 +42,7 @@ script:
 
 after_success:
     - cp coverage.clover ~/coverage.xml
-    - mkdir -p $MODULE_PATH/build/logs
+    - mkdir -p build/logs
     - travis_retry php vendor/bin/coveralls -v --coverage_clover coverage.clover
     - mv coverage.clover ~/build/$TRAVIS_REPO_SLUG/
     - cd ~/build/$TRAVIS_REPO_SLUG
