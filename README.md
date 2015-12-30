@@ -3,6 +3,8 @@
 [![Code Coverage](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/badges/coverage.png?b=3.1)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/?branch=3.1)
 [![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/badges/build.png?b=3.1)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/build-status/3.1)
 [![Build Status](https://travis-ci.org/gordonbanderson/weboftalent-youtube.svg?branch=3.1)](https://travis-ci.org/gordonbanderson/weboftalent-youtube)
+[![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-youtube/coverage.svg?branch=3.1)](https://codecov.io/github/gordonbanderson/weboftalent-youtube?branch=3.1)
+[![Dependency Status](https://www.versioneye.com/php/weboftalent:silverstripe-shortcode-youtube/1.0.1/badge?style=flat)](https://www.versioneye.com/php/weboftalent:silverstripe-shortcode-youtube/1.0.1)
 
 This module allows YouTube videos to be entered as short codes.  It is based on
 the SSBits tutorial
