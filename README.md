@@ -6,6 +6,8 @@
 [![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-youtube/coverage.svg?branch=3.1)](https://codecov.io/github/gordonbanderson/weboftalent-youtube?branch=3.1)
 [![Dependency Status](https://www.versioneye.com/php/weboftalent:silverstripe-shortcode-youtube/1.0.1/badge?style=flat)](https://www.versioneye.com/php/weboftalent:silverstripe-shortcode-youtube/1.0.1)
 
+![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-youtube/branch.svg?branch=3.1)
+
 This module allows YouTube videos to be entered as short codes.  It is based on
 the SSBits tutorial
 http://www.ssbits.com/tutorials/2010/2-4-using-short-codes-to-embed-a-youtube-video/
