@@ -4,7 +4,7 @@
 [![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/badges/build.png?b=3.1)](https://scrutinizer-ci.com/g/gordonbanderson/weboftalent-youtube/build-status/3.1)
 [![Build Status](https://travis-ci.org/gordonbanderson/weboftalent-youtube.svg?branch=3.1)](https://travis-ci.org/gordonbanderson/weboftalent-youtube)
 [![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-youtube/coverage.svg?branch=3.1)](https://codecov.io/github/gordonbanderson/weboftalent-youtube?branch=3.1)
-[![Dependency Status](https://www.versioneye.com/php/weboftalent:silverstripe-shortcode-youtube/1.0.1/badge?style=flat)](https://www.versioneye.com/php/weboftalent:silverstripe-shortcode-youtube/1.0.1)
+[![Dependency Status](https://www.versioneye.com/php/weboftalent:silverstripe-shortcode-youtube/1.0.1/badge?style=flat)](https://www.versioneye.com/php/weboftalent:silverstripe-shortcode-youtube/1.0.1)[![Latest Stable Version](https://poser.pugx.org/weboftalent/silverstripe-shortcode-youtube/version)](https://packagist.org/packages/weboftalent/silverstripe-shortcode-youtube) [![Latest Unstable Version](https://poser.pugx.org/weboftalent/silverstripe-shortcode-youtube/v/unstable)](//packagist.org/packages/weboftalent/silverstripe-shortcode-youtube) [![Total Downloads](https://poser.pugx.org/weboftalent/silverstripe-shortcode-youtube/downloads)](https://packagist.org/packages/weboftalent/silverstripe-shortcode-youtube)
 
 ![codecov.io](https://codecov.io/github/gordonbanderson/weboftalent-youtube/branch.svg?branch=3.1)
 
